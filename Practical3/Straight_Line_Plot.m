@@ -12,9 +12,9 @@ c = 6;
 mean = 0;
 c = 6;
 
-data = linspace(xStart,xEnd, samples);
+x = linspace(xStart,xEnd, samples);
 
-y = m*data + 6;
+y = m*x + c;
 
-plot(y,'o');
+plot(x,y,'o');
 
