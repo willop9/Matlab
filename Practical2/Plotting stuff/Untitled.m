@@ -1,6 +1,6 @@
 close all
 clear all
-samples = 2000000;
+samples = 2000;
 sd = 1;
 
 data = sd * rand(1,samples);
