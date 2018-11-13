@@ -1,13 +1,24 @@
 close all
 clear all
 clc
-xStart = -4
+
+xStart = -4;
 xEnd = 6;
+samples = 100
 
 m = 1.6;
 c = 6;
-samples = 100
-data = linspace(xStart,xEnd, samples);
 
-y = (m)*(data)+c
+mean = 0;
+c = 6;
+
+r = randn(1,samples);
+
+x = linspace(xStart,xEnd, samples);
+y = m*x + c;
+
+figure
+hold on
+plot(x,y,'.');
+
 
