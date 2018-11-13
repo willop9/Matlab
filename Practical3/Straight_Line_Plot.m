@@ -19,6 +19,9 @@ y_noise = y + r(1,:);
 
 figure
 hold on
-plot(x,y_noise,'b-o');
+p = plot(x,y_noise,'b-o');
+p=title('Linear Data Plot with Noise');
+p=xlabel('Data Point Number');
+p=ylabel('Data Point Value');
 
 

@@ -13,12 +13,12 @@ mean = 0;
 c = 6;
 
 r = randn(1,samples);
-
 x = linspace(xStart,xEnd, samples);
 y = m*x + c;
+y_noise = y + r(1,:);
 
 figure
 hold on
-plot(x,y,'.');
+h = plot(x,y_noise,'b-o');
 
 
