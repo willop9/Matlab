@@ -1,8 +1,0 @@
-close all
-clear all
-samples = 200;
-
-data = rand(samples,samples);
-
-MeanData = mean(data,2);
-fi
