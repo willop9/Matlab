@@ -45,7 +45,7 @@ q = maze.QValues(state, action);
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % YOU NEED TO FINISH OFF THIS FUNCTION
-% get the reward from the action on the surrent state
+% get the reward from the action on the current state
 % this will be used by Q-learning as follows:
 reward = maze.RewardFunction(state, action);
 
